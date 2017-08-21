@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Col, FormGroup, Label, Input } from 'reactstrap';
 
 class EndTime extends Component{
-  
+
   render() {
     return(
       <div>
@@ -11,7 +11,7 @@ class EndTime extends Component{
             End Time:
             </Label>
             <Col sm={5}>
-              <Input name="endTime" type="text"/>
+              <Input name="endTime" type="text" placeholder="End Time in UNIX Epoch Format"/>
             </Col>
         </FormGroup>
       </div>

@@ -10,7 +10,7 @@ class StartTime extends Component{
             Start Time:
             </Label>
             <Col sm={5}>
-              <Input name="startTime" type="text" />
+              <Input name="startTime" type="text" placeholder="Start Time in UNIX Epoch Format"/>
             </Col>
         </FormGroup>
       </div>

@@ -12,7 +12,7 @@ class SelectFields extends Component{
       <div>
       <FormGroup row>
          <Label for="SelectFields" sm={2}>Select Fields:</Label>
-         <Col sm={4}>
+         <Col sm={5}>
            <Input type="select"  name="selectOption" id="selectOption">
              <option value="empty"></option>
              <option value="time">Time</option>

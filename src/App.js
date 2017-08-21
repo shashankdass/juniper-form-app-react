@@ -91,6 +91,10 @@ class DBForm extends Component {
   render() {
     return (
       <div className="App"  onChange={this.handleChange}>
+      <div className="App-header">
+          <h3>React DB Form </h3>
+      </div>
+      <br/>
       <Form onSubmit={this.handleSubmit}>
         <TableName />
         <StartTime />
