@@ -40,7 +40,14 @@ class DBForm extends Component {
           this.setState({end_time: event.target.value});
           break;
       case "selectOption":
-          this.setState({select_fields: event.target.value});
+          var options = event.target.options;
+          var value = [];
+          for (var i = 0, l = options.length; i < l; i++) {
+            if (options[i].selected) {
+              value.push(options[i].value);
+            }
+          }
+          this.setState({select_fields: value});
           break;
       default:
         break;
