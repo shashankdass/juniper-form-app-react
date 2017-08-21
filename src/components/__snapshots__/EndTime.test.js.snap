@@ -1,0 +1,19 @@
+exports[`test it renders EndTime Component 1`] = `
+<div>
+  <div
+    className="row form-group">
+    <label
+      className="col-sm-2 col-form-label"
+      htmlFor={undefined}>
+      End Time:
+    </label>
+    <div
+      className="col col-sm-5">
+      <input
+        className="form-control"
+        name="endTime"
+        type="text" />
+    </div>
+  </div>
+</div>
+`;

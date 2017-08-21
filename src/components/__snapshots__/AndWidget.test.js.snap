@@ -1,0 +1,66 @@
+exports[`test it renders AndWidget Component 1`] = `
+<div
+  style={
+    Object {
+      "padding": 10,
+    }
+  }>
+  <div
+    className="col">
+    <label
+      className=" form-control-label"
+      htmlFor={undefined}
+      style={
+        Object {
+          "padding": 10,
+        }
+      }>
+      Name:
+       
+      <input
+        name="whereName_undefined"
+        type="text" />
+    </label>
+        
+    <label
+      className=" form-control-label"
+      htmlFor={undefined}
+      style={
+        Object {
+          "padding": 10,
+        }
+      }>
+      Value:
+       
+      <input
+        name="whereValue_undefined"
+        type="text" />
+    </label>
+        
+    <label
+      className=" form-control-label"
+      htmlFor={undefined}
+      style={
+        Object {
+          "padding": 10,
+        }
+      }>
+      Operator:
+       
+      <select
+        name="whereOperator_undefined">
+        <option
+          value="empty" />
+        <option
+          value="=">
+          =
+        </option>
+        <option
+          value="!=">
+          !=
+        </option>
+      </select>
+    </label>
+  </div>
+</div>
+`;

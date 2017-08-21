@@ -1,0 +1,38 @@
+exports[`test it renders EndTime Component 1`] = `
+<div>
+  <div
+    className="row form-group">
+    <label
+      className="col-sm-2 col-form-label"
+      htmlFor="SelectFields">
+      Select Fields:
+    </label>
+    <div
+      className="col col-sm-4">
+      <select
+        className="form-control"
+        id="selectOption"
+        name="selectOption">
+        <option
+          value="empty" />
+        <option
+          value="time">
+          Time
+        </option>
+        <option
+          value="source_vn">
+          Source
+        </option>
+        <option
+          value="destination_vn">
+          Destination
+        </option>
+        <option
+          value="port">
+          Port
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;

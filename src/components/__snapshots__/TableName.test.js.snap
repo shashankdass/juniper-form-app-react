@@ -1,0 +1,19 @@
+exports[`test it renders TableName Component 1`] = `
+<div>
+  <div
+    className="row form-group">
+    <label
+      className="col-sm-2 col-form-label"
+      htmlFor={undefined}>
+      Table Name:
+    </label>
+    <div
+      className="col col-sm-5">
+      <input
+        className="form-control"
+        name="tableName"
+        type="text" />
+    </div>
+  </div>
+</div>
+`;

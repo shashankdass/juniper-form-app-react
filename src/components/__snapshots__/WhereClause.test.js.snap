@@ -1,0 +1,65 @@
+exports[`test it renders WhereClause Component 1`] = `
+<div
+  onChange={[Function]}>
+  <div
+    className="form-group">
+    <label
+      className=" form-control-label"
+      htmlFor={undefined}>
+      Where Clause:
+    </label>
+    <div
+      className="dropdown">
+      <button
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="dropdown-toggle btn btn-secondary"
+        data-toggle="dropdown"
+        onClick={[Function]}
+        type="button">
+        Dropdown
+      </button>
+      <div
+        aria-hidden={true}
+        className="dropdown-menu"
+        role="menu"
+        tabIndex="-1">
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button">
+          Add And Clause
+        </button>
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button">
+          Remove And Clause
+        </button>
+        <div
+          className="dropdown-divider"
+          onClick={[Function]}
+          tabIndex="-1"
+          type={undefined} />
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button">
+          Add Or Clause
+        </button>
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button">
+          Remove Or Clause
+        </button>
+      </div>
+    </div>
+    <br />
+  </div>
+</div>
+`;
