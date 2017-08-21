@@ -133,7 +133,7 @@ class WhereClause extends Component {
 					</Label>
 					<Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
 		        <DropdownToggle caret>
-		          Dropdown
+		          Add AND or OR  clauses
 		        </DropdownToggle>
 		        <DropdownMenu>
 		          <DropdownItem onClick={this.handleAddAnd}>Add And Clause</DropdownItem>
